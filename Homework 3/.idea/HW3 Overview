@@ -1,0 +1,14 @@
+List of matinee, primetime, and soiree
+    Matinees: start time at or after 7:00 am and before 12:00 pm (noon)
+
+    Primetime: start time at or after 12:00 pm (noon) and before 8:00 pm
+
+    Soiree: start time at or after 8:00 pm and before 2:00 am
+
+Two Programmes are equal if...
+    Each pair of corresponding lists (ex. matinee in first and matinee in second instance) have the same size
+
+    Each pair of corresponding lists have the same movies in the same order.
+
+    A movie in one list is the same as a movie in the other list if only the title and showtime of each movie matches.
+    (Can have other fields that are different and dont have to be same object)

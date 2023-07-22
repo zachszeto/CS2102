@@ -1,0 +1,21 @@
+Tasks:
+    1. create method addEltValidator()
+        -takes a heap, an integer, and a binary tree (in that order)
+        -returns true if the binary tree is a valid result of ADDING the given integer to the first Heap
+
+    2. create method remMinEltValidator()
+        -takes a heap, an integer, and a binary tree (in that order)
+        -returns true if the binary tree is a valid result of REMOVING the given integer to the first Heap
+
+Notes:
+    addElt() is valid if...
+        -retains all elements that were in the original heap while adding only the new element one time
+
+    remMinElt() is valid if...
+        -retains all elements that were in the original heap besides removing one occurrence of the smallest element
+
+    What to check
+    -Is it a heap?
+    -Does the result contain all the elements from the original heap (the same number of occurrences)?
+    -Has the new element been added (or removed)?
+    -Are there no elements in result that weren't in original?
